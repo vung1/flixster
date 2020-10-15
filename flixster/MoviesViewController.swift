@@ -21,7 +21,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         tableView.delegate = self
         
         // Do any additional setup after loading the view.
-        print("Hello")
         
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
@@ -38,11 +37,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
               self.tableView.reloadData()
             
               print(dataDictionary)
-            
-              // TODO: Get the array of movies
-              // TODO: Store the movies in a property to use elsewhere
-              // TODO: Reload your table view data
-
            }
         }
         task.resume()
@@ -58,7 +52,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let movie = movies[indexPath.row]
         let title = movie["title"] as! String
         let synopsis = movie["overview"] as! String
-            
+        
         cell.titleLabel.text = title
         cell.synopsisLabel.text = synopsis
         
@@ -81,5 +75,4 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         // Pass the selected object to the new view controller.
     }
     */
-
 }
