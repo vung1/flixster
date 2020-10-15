@@ -28,4 +28,4 @@ Bonus GIF for viewing app on various device sizes and orientations.
 <img src="http://g.recordit.co/J9MPMUxwt4.gif" width=500><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+A challenge that I encountered while building the app was that I had trouble understanding and adding constraints so that the app will work on various device sizes and orientations.
