@@ -38,11 +38,11 @@ I did not encounter any challenges on this part of the app.
 
 ### App Walkthrough GIF
 
-<img src="http://g.recordit.co/vD0vY3eo46.gif" width=250><br>
+<img src="http://g.recordit.co/Po4tbc7n2d.gif" width=250><br>
 
 Bonus GIF for viewing app on various device sizes and orientations.
 
-<img src="http://g.recordit.co/J9MPMUxwt4.gif" width=500><br>
+<img src="http://g.recordit.co/KGBfPFqoxk.gif" width=500><br>
 
 ### Notes
 A challenge that I encountered while building the app was that I had trouble understanding and adding constraints so that the app will work on various device sizes and orientations.
